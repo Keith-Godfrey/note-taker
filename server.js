@@ -13,7 +13,6 @@ app.use(express.static("public"));
 
 
 // Import routes 
-
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
